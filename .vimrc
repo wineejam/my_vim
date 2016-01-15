@@ -48,7 +48,7 @@ filetype on
 filetype plugin on
 "启动智能补全
 "filetype plugin indent on
-
+"
 
 " Vundle设置
 set nocompatible              " be iMproved, required
