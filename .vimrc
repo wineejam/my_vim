@@ -16,9 +16,6 @@ set cursorline
 set cursorcolumn
 "设置匹配模式 类似当输入一个左括号时会匹配相应的那个右括号
 set showmatch
-"设置C/C++方式自动对齐
-set autoindent
-set cindent
 "开启语法高亮功能
 syntax enable
 syntax on
@@ -46,11 +43,11 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 "检测文件类型
 filetype on
 "针对不同的文件采用不同的缩进方式
-filetype indent on
+"filetype indent on
 "允许插件
 filetype plugin on
 "启动智能补全
-filetype plugin indent on
+"filetype plugin indent on
 
 
 " Vundle设置
@@ -88,7 +85,7 @@ Plugin 'moll/vim-bbye'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
-filetype plugin indent on    " required
+"filetype plugin indent on    " required
 
 " nerdtree设置
 " 控制当光标移动超过一定距离时，是否自动将焦点调整到屏中心
